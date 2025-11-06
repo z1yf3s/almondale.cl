@@ -1,0 +1,81 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 90px;
+    height: 120px;
+
+    box-shadow: 0 0px 2px #000;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100px;
+
+}
+
+/* Both are ul */
+a {
+    padding: 5px 10px;
+    border-radius: 1px;
+
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.links-top,
+.links-bottom {
+    display: flex;
+
+    list-style: none;
+
+    font-family: roboto, serif;
+    letter-spacing: -1px;
+}
+
+.links-top {
+    align-self: flex-end;
+    padding-top: 3px;
+
+    font-size: 10px;
+    gap: 5px;
+
+    letter-spacing: 0px;
+}
+
+.links-bottom {
+    margin-right: 20px;
+}
+
+.uniforme-link {
+    background-color: #ffc107;
+    color: black;
+}
+
+.apoderados-link {
+    background-color: #813044;
+    color: white;
+}
+
+.funcionarios-link {
+    background-color: #090E45;
+    color: white;
+}
+
+.schoolnet-link {
+    background-color: #74C9ED;
+    color: white;
+}
+
+.links-bottom a {
+    color: #A62B2B;
+    font-size: 18px;
+}

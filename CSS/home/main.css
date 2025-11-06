@@ -1,0 +1,144 @@
+main {
+    font-family: roboto, serif;
+    background-color: #EDEDED;
+}
+
+.aprendizaje {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+    padding: 30px 0;
+}
+
+.aprendizaje-text {
+    width: 280px;
+    align-self: center;
+
+    text-align: start;
+    color: #7B303E;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.aprendizaje-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 40%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+
+    border-radius: 3px;
+    width: 200px;
+    height: 180px;
+    margin: 5px;
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card p {
+    width: 100px;
+    text-align: center;
+}
+
+.programa-bilingue {
+    background-color: #A63346;
+}
+
+.valores-cristianos {
+    background-color: #384969;
+}
+
+.innovacion {
+    background-color: #8DA7D2;
+}
+
+.educacion-ambiental {
+    background-color: #CFAD4E;
+}
+
+/* Colegios */
+.colegios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    background-color: #0B233F;
+    padding: 20px;
+}
+
+.colegios-imagenes {
+    display: flex;
+    gap: 20px;
+}
+
+.subvencionado-colegio {
+    color: whitesmoke;
+    font-size: 10px;
+
+    margin-top: 2px;
+}
+
+.titulo-colegio {
+    width: 80px;
+
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+}
+
+.titulo-colegio-valle {
+    color: #7B303E;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+}
+
+.colegio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 160px;
+    height: 150px;
+
+    background-color: white;
+    border: 2px solid white;
+}
+
+.colegio img {
+    margin-bottom: 10px;
+}
+
+.colegios-texto {
+    width: 100px;
+
+    color: white;
+
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.colegio-san-pedro {
+    background-color: #7196BD;
+}
+
+.colegio-lomas {
+    background-color: #7B303E;
+}
+
+.colegio-valle {
+    background-color: #CBC298;
+}
