@@ -24,8 +24,6 @@ main {
 .aprendizaje-cards {
     display: flex;
     flex-wrap: wrap;
-
-    width: 40%;
 }
 
 .card {

@@ -45,7 +45,7 @@ ul {
     align-self: flex-end;
     padding-top: 3px;
 
-    font-size: 10px;
+    font-size: 15px;
     gap: 5px;
 
     letter-spacing: 0px;
@@ -77,5 +77,5 @@ ul {
 
 .links-bottom a {
     color: #A62B2B;
-    font-size: 18px;
+    font-size: 23px;
 }
