@@ -23,7 +23,15 @@ main {
 
 .aprendizaje-cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card-first {
+    display: flex;
+}
+
+.card-second {
+    display: flex;
 }
 
 .card {
@@ -139,4 +147,94 @@ main {
 
 .colegio-valle {
     background-color: #CBC298;
+}
+
+.cifras {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+
+    padding: 3rem;
+}
+
+.cifras-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 50%;
+}
+
+.cifras-text h2 {
+    color: #7B303E;
+    font-size: 43px;
+}
+
+.cifras-text p {
+    font-size: 18px;
+    color: #363636;
+}
+
+.cifras-text-imagenes {
+    display: flex;
+    gap: 1rem;
+
+    margin-top: 4rem;
+}
+
+.cifras-statistics-title {
+    color: white;
+    background-color: #7B303E;
+
+    padding: 1rem;
+}
+
+.cifras-singular-statistics {
+    display: flex;
+    flex-direction: column;
+
+    background-color: lightgray;
+    margin-top: 0.6rem;
+}
+
+.cifras-statistics-text-uno {
+    display: flex;
+    flex-direction: column;
+
+    padding: 18px;
+}
+
+.text-uno-uno {
+    color: #363636;
+}
+
+.text-uno-dos {
+    color: #7B303E;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.text-uno-tres {
+    font-size: 22px;
+    color: black;
+}
+
+.cifras-statistics-text-dos {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    padding: 18px;
+}
+
+.text-dos-uno {
+    color: #0B233F;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.text-dos-dos {
+    width: 100px;
+    color: #363636;
+    font-size: 20px;
 }
